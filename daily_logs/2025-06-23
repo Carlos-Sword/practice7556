@@ -1,0 +1,72 @@
+# Daily Log - 2026-06-23
+
+## Goal for Today
+
+The goal for today was to review the first printed chassis design, identify the wheel clearance problems, and update the CAD model for a second chassis version.
+
+## Work Completed
+
+Today, we inspected the first printed chassis and compared it to the current wheel setup. We found that the chassis was originally designed using smaller wheels than the wheels we are actually using on the robot.
+
+Because of this difference, the current wheels did not have enough clearance. When the robot turned, the wheels made contact with the chassis.
+
+We also designed a platform for the air tanks so the pneumatic storage system can be mounted more securely and organized better inside the chassis.
+
+## Problems Found
+
+### Problem 1: Wheel Clearance Issue
+
+The first chassis print was designed around smaller wheels by accident. The robot is now using larger wheels, so the steering movement caused the wheels to touch the chassis during turns.
+
+This created a mechanical interference problem that could affect:
+
+* Steering reliability
+* Turning radius
+* Driving consistency
+* Chassis durability
+* Competition reliability
+
+### Problem 2: Air Tank Mounting
+
+The air tanks needed a dedicated platform instead of being placed loosely or mounted without a clear structure. Since the pneumatic system is one of the main parts of the robot, the tank mounting needs to be secure and repeatable.
+
+## Changes Made
+
+To fix these issues, we updated the CAD model and created a second chassis version.
+
+The changes included:
+
+* Increased clearance around the wheels.
+* Modified the chassis geometry so the wheels do not touch the frame during turns.
+* Added screw holes for the air tank platform.
+* Designed a more secure platform for the pneumatic air tanks.
+* Improved the chassis layout to better support the pneumatic system.
+* Prepared the updated chassis for a second print.
+
+## Engineering Reasoning
+
+This change was necessary because the robot must be designed around the real physical parts, not only the original CAD assumptions. The first chassis showed that even a small difference in wheel size can create major problems in steering clearance.
+
+By updating the model with the correct wheel size and adding screw holes for the air tank platform, the second chassis should be easier to assemble, more reliable, and better prepared for testing.
+
+## Chassis V.2 CAD and STL
+
+![Chassis V2 CAD model](../mechanical/photos/chassis/chassis_v2_cad.png)
+
+
+[Download Chassis V2 STL](../mechanical/STL/chassis_parts/chassis_v2.stl.gcode)
+
+## Next Step
+
+The next step is to finish printing Chassis V2 and test the wheel clearance physically. After printing, we need to check:
+
+* If the wheels clear the chassis at full left turn.
+* If the wheels clear the chassis at full right turn.
+* If the air tank platform screw holes align correctly.
+* If the tanks mount securely.
+* If the steering system moves freely.
+* If the chassis has enough space for the pneumatic engine and electronics.
+
+## Status
+
+Chassis V2 is now being printed.
